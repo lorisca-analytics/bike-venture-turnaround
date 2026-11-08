@@ -1,0 +1,33 @@
+name: Rebuild charts
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  charts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install pinned dependencies
+        run: pip install -r requirements.txt
+      - name: Rebuild all charts from the CSVs
+        run: |
+          rm -f charts/chart*.png
+          python analysis/godi_turnaround.py
+      - name: Check all five charts were produced
+        run: |
+          for n in 1 2 3 4 5; do
+            f=$(ls charts/chart${n}_*.png 2>/dev/null | head -1)
+            if [ -z "$f" ] || [ ! -s "$f" ]; then echo "Missing or empty: chart${n}"; exit 1; fi
+            echo "OK: $f"
+          done
