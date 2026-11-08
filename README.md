@@ -1,5 +1,7 @@
 # The Bounce-Back: Diagnosing and Turning Around a Bike Venture
 
+[![Rebuild charts](https://github.com/lorisca-analytics/bike-venture-turnaround/actions/workflows/rebuild-charts.yml/badge.svg)](https://github.com/lorisca-analytics/bike-venture-turnaround/actions/workflows/rebuild-charts.yml)
+
 A marketing performance audit that pulled a team out of a Q3 collapse and back to
 profitability by Q6. Built from six quarters of a Harvard Business Publishing venture strategy simulation, where I served as VP of Business Analytics and HR.
 
@@ -161,11 +163,15 @@ Market demand by company and segment (units):
 
 Machine-readable versions live in `data/`.
 
-## Reproducibility
+## How to run
 
 Numbers are extracted from the source reports into `data/` (see
-`data/SOURCES.md` for the full ledger). Charts rebuild with one command:
+`data/SOURCES.md` for the full ledger). Charts rebuild with one command after a one-time install:
 
-```
+```bash
+pip install -r requirements.txt
 python3 analysis/godi_turnaround.py
 ```
+
+It writes the five charts above into `charts/`. A check on every push rebuilds
+them from the CSVs and fails if any chart is missing.
