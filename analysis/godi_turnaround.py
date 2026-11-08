@@ -1,8 +1,9 @@
-"""GODI bike simulation — turnaround analysis.
+"""GODI bike simulation: turnaround analysis.
 
-Builds the four storytelling charts for the portfolio case from the extracted CSVs.
+Builds the five storytelling charts for the portfolio case from the extracted CSVs.
 All numbers are ledger-bound to the simulation reports listed in ../data/SOURCES.md.
-Run: python3 godi_turnaround.py (writes ../charts/*.png)
+Run from the repo root or anywhere else: python3 analysis/godi_turnaround.py
+(writes charts/chart1 to chart5 as PNG)
 """
 import csv
 import os
