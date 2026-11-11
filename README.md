@@ -7,17 +7,17 @@ profitability by Q6. Built from six quarters of a Harvard Business Publishing ve
 
 ## The story in 90 seconds
 
-Our team launched an international bike company, placed second after Q1, then
+I launched an international bike company. It placed second after Q1, then
 collapsed in Q3: zero paid search, 78% of orders unfulfilled, fragmented messaging, and
 the quarter's worst loss (-$360K operating profit). I stayed up and built a full Q3
 marketing performance audit: visibility scorecard, segment-by-segment diagnosis, five
-root causes, and a corrective Q4 plan with quantified targets. The team executed against
+root causes, and a corrective Q4 plan with quantified targets. I aligned the team behind
 it. Losses nearly vanished in Q4, and by Q6 the company was profitable (+$703K) on
 13x the Q3 revenue.
 
 ## The warning signs (Q2)
 
-The collapse didn't come out of nowhere. Our Q2 performance review, documented in the team's working notes, closed the quarter at 21.8% total share (Speed 35.9%, Mountain
+The collapse didn't come out of nowhere. The Q2 performance review, documented in the team's working notes, closed the quarter with my company at 21.8% total share (Speed 35.9%, Mountain
 25.8%, Recreation 6.8%, effectively no presence), trailing Neocarbon's 41.9%. The
 review's own weaknesses table named them plainly: Amsterdam-only distribution, no
 Recreation line (surrendering 40% of market volume), weak search presence (190 clicks
@@ -44,17 +44,17 @@ The pitch went out just as the Q3 numbers were coming in. That backup budget lin
 The audit found five failures, all in execution. The product was never the problem:
 
 1. **Digital blackout.** $0 in paid search while the closest competitor spent $17K+.
-   An estimated 30–40% of high-intent buyers never saw us.
+   An estimated 30–40% of high-intent buyers never saw GODI.
 2. **Stockouts with no communication.** 78% of orders unfulfilled, 801 lost sales, and no crisis messaging. A logistics problem became a trust problem.
 3. **Weak creative.** Three ads, ten regional placements (competitors ran 20+), every
    ad scoring under 70 on quality.
-4. **Fragmented messaging.** Offline said "speed and performance"; online said "urban
+4. **Fragmented messaging.** Offline said "speed and performance". Online said "urban
    lifestyle." Customers couldn't say what the brand stood for.
 5. **Budget misallocation.** $58K overspent on underperforming offline ads, $3K on
    search, $0 on social. ROAS below 1.0.
 
-The sharpest finding: our Recreation line had the market's highest search volume
-(1,333 queries) and our worst segment result (-$47K). The biggest opportunity was
+The sharpest finding: GODI's Recreation line had the market's highest search volume
+(1,333 queries) and its worst segment result (-$47K). The biggest opportunity was
 sitting under the worst execution.
 
 ## The pivot (Q4)
@@ -82,7 +82,7 @@ One honest complication: Q5 shows a -$717K loss. That's not a relapse. It's a de
 makes it unambiguous, so the case says so instead of smoothing it over.
 
 And a second complication worth naming: market share (by demand) fell from 25.5% to
-20.3%, because the total market grew 5.9x while our demand grew 4.7x. The turnaround
+20.3%, because the total market grew 5.9x while GODI's demand grew 4.7x. The turnaround
 is a profit story inside a share-loss market, which is the more interesting finding and the one a hiring manager can actually interrogate.
 
 ![Demand vs market](charts/chart4_demand_vs_market.png)
@@ -104,7 +104,7 @@ And the reallocation, measured as gross profit per marketing dollar:
 ![Marketing efficiency](charts/chart5_marketing_efficiency.png)
 
 From 1.3x in the collapse quarter to 7.2x by Q6, against the audit's own target of
-1.5x. The plan didn't just get executed; it over-delivered on its own terms.
+1.5x. The plan over-delivered on its own terms.
 
 ## What I did
 
@@ -118,14 +118,14 @@ of: the analysis only mattered because it changed what the team did next.
 
 A diagnostic audit: benchmark every marketing dimension against the market, decompose
 losses by segment, trace each failure to an organizational root cause, then size a
-corrective plan with targets. The question was explanatory ("why are we losing?"), not predictive. An audit with before/after targets was the right tool, and it's what the
+corrective plan with targets. The question was explanatory ("why is GODI losing?"), not predictive. An audit with before/after targets was the right tool, and it's what the
 team could act on that week. A predictive model would have answered a question nobody
 was asking.
 
 ## Limitations
 
 - "Market share" appears in two definitions here: the audit's 15–17% target is a
-  fulfilled-sales share (~6% in Q3 after stockouts); the report charts show
+  fulfilled-sales share (~6% in Q3 after stockouts). The report charts show
   demand (orders placed) share. The case keeps them separate.
 - Q4 targets are projections with stated assumptions, not observed outcomes.
 - Q2 findings come from the team's working notes, not the source reports, sourced as such in `data/SOURCES.md`.
